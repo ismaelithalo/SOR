@@ -1,10 +1,8 @@
-#define N 5000
-
 #include <stdio.h>
 #include <stdlib.h>
-
 #include <pthread.h>
 
+#define N 1000
 #define N_THREADS 1
 
 long **C;
